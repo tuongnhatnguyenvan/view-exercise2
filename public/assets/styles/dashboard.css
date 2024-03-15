@@ -1,0 +1,86 @@
+
+.container-fluid{
+    background-color: #f9faff;
+}
+/* Custom CSS for sidebar */
+.sidebar {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #f9faff;
+    padding-top: 60px; /* Adjust this value as per your need */
+    color: #111;
+}
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+.sidebar ul li {
+    /* border-bottom: 1px solid #4e555b; */
+    position: relative;
+}
+.sidebar ul li a {
+    color: #111;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    position: relative;
+}
+.sidebar ul li .fa-angle-right {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.3s ease;
+}
+.sidebar ul li.active .fa-angle-right {
+    transform: translateY(-50%) rotate(90deg);
+}
+.sidebar ul li ul {
+    display: none;
+    position: relative;
+}
+.sidebar ul li ul.show {
+    display: block;
+}
+.sidebar ul li ul li {
+    border-bottom: none;
+}
+.sidebar ul li .rotate {
+    transform: translateY(-50%) rotate(90deg);
+}
+.sidebar img {
+    background: white;
+    padding: 20px;
+}
+
+/* css for navbar */
+
+.navbar{
+    background: white;
+    height:100px;
+}
+.search .form-control{
+    width:400px;
+    text-align: center;
+    background-color: #f9faff;
+}
+
+.avatar img{
+    width: 40px !important;
+    height:40px !important;
+    border-radius: 50%;
+}
+
+.label{
+    background: white;
+}
+.rectangle {
+    background-color: lightgray;
+    height: 140px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+
